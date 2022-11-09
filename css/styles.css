@@ -1,0 +1,178 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196F3;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2F303A;
+  --additional-background-color: #F5F4FA;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+
+  background-color: var(--primary-background-color);
+}
+
+/* block header */
+
+.main-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-logo .accent-text {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.main-nav .current.link,
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.main-nav-item a {
+  color: var(--primary-text-color);
+}
+
+.contact-item a {
+  color: var(--secondary-text-color);
+}
+
+/* block hero */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+
+  background-color: var(--accent-color);
+}
+
+/* block advantages */
+.advantages .item-title {
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages .text {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+/* block works */
+
+.works-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* block team */
+
+.team {
+  background-color: var(--additional-background-color);
+}
+
+.team .list-item {
+  background-color: var(--primary-background-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team .item-title {
+  font-weight: 500;
+}
+
+.team .item-text {
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+
+footer {
+  background-color: var(--secondary-background-color);
+}
+
+footer .main-logo,
+.physic-addr a {
+  color: #ffffff;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.71;
+}
+
+/* page portfolio */
+
+.filter-list .btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #212121;
+
+  background-color: var(--additional-background-color);
+}
+
+.filter-list .btn:hover,
+.filter-list .btn:focus,
+.filter-list .btn.active {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.work-item {
+  text-decoration: none;
+}
+
+.work-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.work-list-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+}
