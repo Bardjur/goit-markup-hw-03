@@ -88,7 +88,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages .text {
+.advantages .item-text {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -140,7 +140,7 @@ footer .main-logo,
   line-height: 1.71;
 }
 
-/* page portfolio */
+/* Page portfolio */
 
 .filter-list .btn {
   font-family: inherit;
