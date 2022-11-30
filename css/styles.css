@@ -1,6 +1,8 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
+  --light-text-color: #ffffff;
+  --additional-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196F3;
   --primary-background-color: #ffffff;
   --secondary-background-color: #2F303A;
@@ -12,7 +14,6 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-
   background-color: var(--primary-background-color);
 }
 
@@ -22,7 +23,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.17;
   color: #000000;
   text-decoration: none;
 }
@@ -48,11 +49,11 @@ body {
   color: var(--accent-color);
 }
 
-.main-nav-item a {
+.main-nav-item .link {
   color: var(--primary-text-color);
 }
 
-.contact-item a {
+.contact-item .link {
   color: var(--secondary-text-color);
 }
 
@@ -68,7 +69,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--light-text-color);
 }
 
 .hero-btn {
@@ -77,7 +78,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: var(--light-text-color);
 
   background-color: var(--accent-color);
 }
@@ -125,20 +126,24 @@ body {
 
 /* footer */
 
-footer {
+.footer {
   background-color: var(--secondary-background-color);
 }
 
-footer .main-logo,
+.footer .main-logo,
 .physic-addr a {
-  color: #ffffff;
+  color: var(--light-text-color);
 }
 
-.footer-contact a {
-  text-decoration: none;
+.footer-contact .link {
   font-style: normal;
   line-height: 1.71;
 }
+
+.footer-contact .link:not(:first-child) {
+  color: var(--additional-text-color);
+}
+
 
 /* Page portfolio */
 
@@ -147,7 +152,7 @@ footer .main-logo,
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  color: #212121;
+  color: var(--primary-text-color);
 
   background-color: var(--additional-background-color);
 }
@@ -155,7 +160,7 @@ footer .main-logo,
 .filter-list .btn:hover,
 .filter-list .btn:focus,
 .filter-list .btn.active {
-  color: #ffffff;
+  color: var(--light-text-color);
   background-color: var(--accent-color);
 }
 
@@ -168,11 +173,11 @@ footer .main-logo,
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .work-list-text {
   font-size: 16px;
   line-height: 1.88;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
